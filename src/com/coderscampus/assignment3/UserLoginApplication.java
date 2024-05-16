@@ -6,7 +6,7 @@ public class UserLoginApplication {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Welcome to the Build a PC GrandSlam Giveaway! For a chance to win," +
+        System.out.println("Welcome to the Build a PC GrandSlam Giveaway! (Totally not phishing) For a chance to win," +
                 " please login below");
         UserService userService= new UserService();
         try {
