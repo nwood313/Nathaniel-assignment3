@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UserLoginApplication {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         System.out.println("Welcome to the Build a PC GrandSlam Giveaway! (Totally not phishing) For a chance to win," +
                 " please login below: ");

@@ -29,7 +29,6 @@ public class UserService {
         reader.close();
         return users;
     }
-
     public boolean ValidateLogin(User[] users, String username, String password) {
         for (User user : users) {
             if (user.getUsername().equalsIgnoreCase(username) && user.getPassword().equals(password)) {
