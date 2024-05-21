@@ -17,9 +17,9 @@ public class UserLoginApplication {
             final int MAX_ATTEMPTS = 5;
 
             while (loginAttempts < MAX_ATTEMPTS) {
-                System.out.println("Enter your email: ");
+                System.out.println("Your email: ");
                 String username = scanner.nextLine();
-                System.out.println("Please Enter your password: ");
+                System.out.println("Your password: ");
                 String password = scanner.nextLine();
 
                 if (userService.ValidateLogin(users, username, password)) {
